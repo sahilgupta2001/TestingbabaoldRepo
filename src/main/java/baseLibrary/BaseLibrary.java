@@ -21,8 +21,9 @@ import org.testng.annotations.BeforeMethod;
 import driverfactory.DriverFactory;
 import utils.ExcelUtility;
 import utils.ScreenshotUtility;
+import utils.WaitUtility;
 
-public class BaseLibrary implements ExcelUtility,ScreenshotUtility {
+public class BaseLibrary implements ExcelUtility,ScreenshotUtility,WaitUtility {
 	
 	
 	private static final Logger log = LoggerFactory.getLogger(BaseLibrary.class);
