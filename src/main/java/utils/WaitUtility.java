@@ -140,5 +140,99 @@ public interface WaitUtility {
 		});
 	}
 	
+	default boolean waitForTextToDisappear(By locator, String text) {
+		log.debug("Waiting for text '{}' to disappear from element: {}", locator, text);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(driver -> {
+			try {
+				return !driver.findElement(locator).getText().contains(text);
+			} catch (StaleElementReferenceException | NoSuchElementException e) {
+				return false;
+			}
+		});
+	}
 	
-}
+	// ---------------------------------------------------- //
+    //                  Attribute Conditions                //
+    // ---------------------------------------------------- //
+	
+	default boolean waitForAttributeContains(By locator, String attribute, String value) {
+		log.debug("Waiting for attribure '{}' to contain '{}' in element: {}", locator, attribute, value);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.attributeContains(locator, attribute, value));
+	}
+	
+	default boolean waitForAttributeToBe(By locator, String attribute, String value) {
+		log.debug("Waiting for attribute '{}' to be '{}' in element: {}", locator, attribute, value);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.attributeToBe(locator, attribute, value));
+	}
+	
+	default boolean waitForAttributeToDisappear(By locator, String attribute) {
+		log.debug("Waiting for attribute '{}' to be empty in element: {}", locator, attribute);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(driver -> {
+			try {
+				String val = driver.findElement(locator).getAttribute(attribute);
+				return val == null || val.isEmpty();
+			} catch (StaleElementReferenceException | NoSuchElementException e) {
+				return false;
+			}
+		});
+	}
+	
+	// ---------------------------------------------------- //
+    //                     Staleness                        //
+    // ---------------------------------------------------- //
+	
+	default boolean waitForStaleness(WebElement element) {
+		log.debug("Waiting for staleness of element");
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.stalenessOf(element));
+	}
+	
+	// ---------------------------------------------------- //
+    //                    URL & Title                       //
+    // ---------------------------------------------------- //
+	
+	default boolean waitForUrlContains(String urlFragment) {
+		log.debug("Waiting for URL to contains: {}", urlFragment);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.urlContains(urlFragment));
+	}
+	
+	default boolean waitForUrlToBe(String url) {
+		log.debug("Waiting for Url to be: {}", url);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.urlToBe(url));
+	}
+	
+	default boolean waitForTitleContains(String titleFragment) {
+		log.debug("Waiting for Title to contain: {}", titleFragment);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.titleContains(titleFragment));
+	}
+	
+	default boolean waitForTitleToBe(String title) {
+		log.debug("Waiting for Title To be: {}", title);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.titleIs(title));
+	}
+	
+	// ---------------------------------------------------- //
+    //               Frames, Alerts, Windows                //
+    // ---------------------------------------------------- //
+
+	default WebDriver waitForFrameAndSwitch(By locator) {
+		log.debug("Waiting for frame and switching: {}", locator);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locator));
+	}
+	
+	default WebDriver waitForFrameAndSwitch(String nameOrID) {
+		log.debug("Waiting for frame and switching: {}", nameOrID);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(nameOrID));
+	}
+	
+	default Alert waitForAlert() {
+		log.debug("Waiting for alert to be present");
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.alertIsPresent());	
+	}
+	
+	default boolean waitForNewWindowToOpen(int currentWindowCount) {
+		log.debug("Waiting for new window. Current Count: {}", currentWindowCount);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.numberOfWindowsToBe(currentWindowCount + 1));
+	}
+}	
+
+
