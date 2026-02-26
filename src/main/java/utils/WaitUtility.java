@@ -234,6 +234,20 @@ public interface WaitUtility {
 		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.numberOfWindowsToBe(currentWindowCount + 1));
 	}
 	
+	// ---------------------------------------------------- //
+    //                  Number of Elements                  //
+    // ---------------------------------------------------- //
+	
+	default List<WebElement> waitForNumberOfElementsToBe(By locator, int count) {
+		log.debug("Waiting for exactly {} element at: ", count, locator);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.numberOfElementsToBe(locator, count));
+	}
+	
+	default List<WebElement> waitForNumberForElementToBeMoreThan(By locator, int count) {
+		log.debug("Waiting for more than {} element at: ", count, locator);
+		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.numberOfElementsToBeMoreThan(locator, count));
+	}
+	
 	
 }	
 
