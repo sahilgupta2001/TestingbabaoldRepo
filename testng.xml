@@ -1,7 +1,7 @@
 <suite name="Automation Suite">
 <test name="UI Tests">
 <classes>
-<class name="tests.SampleTest"/>
+<class name="tests.CloseTest"/>
 </classes>
 </test>
 </suite>

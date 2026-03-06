@@ -12,6 +12,12 @@ public class ClosePage extends BaseLibrary{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="")
+	// xpath for Element
+	@FindBy(xpath="//button[text()='×']")
 	private WebElement close;
+	
+	// Methods for xpath	
+	public void clickonclose() {
+		close.click();
+	}
 }
