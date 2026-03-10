@@ -38,14 +38,14 @@ public class ElementPage extends BaseLibrary{
 	// ---------------------------------------------------- //
 
 	public void clickOnClose() {
-		close.click();
+		waitForClickability(close).click();
 	}
 	
 	public void clickOnPractice() {
-		practice.click();
+		waitForClickability(practice).click();
 	}
 	
 	public void clickOnElements() {
-		elements.click();
+		waitForClickability(elements).click();
 	}
 }

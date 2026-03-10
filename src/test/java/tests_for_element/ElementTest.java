@@ -27,18 +27,21 @@ public class ElementTest extends BaseLibrary {
 	//                      Tests                           //
 	// ---------------------------------------------------- //
 	
-	@Test(priority=1)
+	@Test(priority=1, groups = { "smoke","regression"})
 	public void clickOnClose() {
 		elementpage.clickOnClose();
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, groups = { "smoke", "regression"})
 	public void clickOnPractice() {
+		elementpage.clickOnClose();
 		elementpage.clickOnPractice();
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3, groups = { "regression"})
 	public void clickOnElements() {
+		elementpage.clickOnClose();
+		elementpage.clickOnPractice();
 		elementpage.clickOnElements();
 	}
 }
