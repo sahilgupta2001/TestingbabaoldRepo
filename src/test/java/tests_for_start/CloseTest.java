@@ -10,14 +10,9 @@ public class CloseTest extends BaseLibrary {
 	
 	ClosePage ob;
 	
-	@BeforeMethod
-	public void setup() {
-		//launchurl();
-		ob = new ClosePage();
-	}
-	
 	@Test
 	public void clickonclose() {
+		ob = new ClosePage();
 		ob.clickonclose(); 
 	}
 }

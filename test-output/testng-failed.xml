@@ -6,7 +6,6 @@
       <class name="tests_for_start.CloseTest">
         <methods>
           <include name="setup"/>
-          <include name="launchurl"/>
           <include name="tearDown"/>
           <include name="clickonclose"/>
         </methods>

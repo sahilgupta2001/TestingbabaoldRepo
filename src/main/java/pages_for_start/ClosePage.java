@@ -13,7 +13,7 @@ public class ClosePage extends BaseLibrary{
 	}
 	
 	// xpath for Element
-	@FindBy(xpath="//button[contains(text()='×')]")
+	@FindBy(xpath="//button[contains(text(), '×')]")
 	private WebElement close;
 	
 	// Methods for xpath	
