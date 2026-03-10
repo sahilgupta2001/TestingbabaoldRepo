@@ -11,8 +11,8 @@ public class CloseTest extends BaseLibrary {
 	ClosePage ob;
 	
 	@BeforeMethod
-	public void launchurl() {
-		launchurl();
+	public void setup() {
+		//launchurl();
 		ob = new ClosePage();
 	}
 	
