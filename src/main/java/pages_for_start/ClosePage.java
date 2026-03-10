@@ -5,19 +5,30 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import baseLibrary.BaseLibrary;
+import driverfactory.DriverFactory;
 
-public class ClosePage extends BaseLibrary{
-	
+public class ClosePage extends BaseLibrary {
+
+	// ---------------------------------------------------- //
+	//                     Constructor                      //
+	// ---------------------------------------------------- //
+
 	public ClosePage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(DriverFactory.getDriver(), this);
 	}
-	
-	// xpath for Element
-	@FindBy(xpath="//button[contains(text(), '×')]")
+
+	// ---------------------------------------------------- //
+	//                     Web Elements                     //
+	// ---------------------------------------------------- //
+
+	@FindBy(xpath = "//button[contains(text(), '×')]")
 	private WebElement close;
-	
-	// Methods for xpath	
-	public void clickonclose() {
+
+	// ---------------------------------------------------- //
+	//                       Actions                        //
+	// ---------------------------------------------------- //
+
+	public void clickOnClose() {
 		close.click();
 	}
 }

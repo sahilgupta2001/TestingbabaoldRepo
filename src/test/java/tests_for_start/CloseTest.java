@@ -7,12 +7,28 @@ import baseLibrary.BaseLibrary;
 import pages_for_start.ClosePage;
 
 public class CloseTest extends BaseLibrary {
-	
-	ClosePage ob;
-	
+
+	// ---------------------------------------------------- //
+	//                    Page Objects                      //
+	// ---------------------------------------------------- //
+
+	private ClosePage closePage;
+
+	// ---------------------------------------------------- //
+	//                      Setup                           //
+	// ---------------------------------------------------- //
+
+	@BeforeMethod
+	public void initPages() {
+		closePage = new ClosePage();
+	}
+
+	// ---------------------------------------------------- //
+	//                      Tests                           //
+	// ---------------------------------------------------- //
+
 	@Test
-	public void clickonclose() {
-		ob = new ClosePage();
-		ob.clickonclose(); 
+	public void clickOnClose() {
+		closePage.clickOnClose();
 	}
 }
