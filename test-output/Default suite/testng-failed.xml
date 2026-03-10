@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_for_start.CloseTest">
+      <class name="tests_for_element.ElementTest">
         <methods>
           <include name="setup"/>
+          <include name="initPages"/>
           <include name="tearDown"/>
-          <include name="clickonclose"/>
+          <include name="clickOnElements"/>
+          <include name="clickOnPractice"/>
         </methods>
-      </class> <!-- tests_for_start.CloseTest -->
+      </class> <!-- tests_for_element.ElementTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
