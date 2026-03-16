@@ -1,5 +1,6 @@
 package tests_for_element;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -36,6 +37,11 @@ public class ElementTest extends BaseLibrary {
 	public void clickOnPractice() {
 		elementpage.clickOnClose();
 		elementpage.clickOnPractice();
+		
+		String title = elementpage.getPageTitle();
+		Assert.assertTrue(
+				title.toLowerCase().contains("demoqa"),
+				"Page title should contain 'demoqa' after navigating to Practice." + title);
 	}
 	
 	@Test(priority=3, groups = { "regression"})
