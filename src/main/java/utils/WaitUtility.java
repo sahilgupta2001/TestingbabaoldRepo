@@ -77,7 +77,7 @@ public interface WaitUtility {
 		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 	
-	default boolean waitForInvisibiliyt(By locator) {
+	default boolean waitForInvisibility(By locator) {
 		log.debug("Waiting for invisibility of element: {}", locator);
 		return buildWait(DEFAULT_TIMEOUT_SECONDS).until(ExpectedConditions.invisibilityOfElementLocated(locator));
 	}

@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_for_element.ElementTest">
+      <class name="tests_for_element.TextBoxTest">
         <methods>
-          <include name="setup"/>
           <include name="initPages"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="clickOnElements"/>
-          <include name="clickOnPractice"/>
+          <include name="fillTextBoxForm"/>
         </methods>
-      </class> <!-- tests_for_element.ElementTest -->
+      </class> <!-- tests_for_element.TextBoxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

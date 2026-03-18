@@ -68,13 +68,19 @@ public class BaseLibrary implements ExcelUtility,ScreenshotUtility,WaitUtility,A
 	
 	@BeforeMethod
 	public void setup() {
-		DriverFactory.initDriver();
-		this.driver = DriverFactory.getDriver();
+		try {
+			DriverFactory.initDriver();
+			this.driver = DriverFactory.getDriver();
 		
-		new File(PASS_DIR).mkdirs();
-		new File(FAIL_DIR).mkdirs();
-		
-		log.info("Browser initialized Succesfully");
+			new File(PASS_DIR).mkdirs();
+			new File(FAIL_DIR).mkdirs();
+
+			log.info("Browser initialized Succesfully");
+	} catch (Exception e) {
+		log.error("Browser setup failed - could not save URL: {}", e.getMessage());
+		throw new RuntimeException("Setup Failed: Unable to load application URL." + 
+				"Check network connectivity or if the site is up. Cause: " + e.getMessage(), e);
+	}
 	}
 	
 	@AfterMethod
