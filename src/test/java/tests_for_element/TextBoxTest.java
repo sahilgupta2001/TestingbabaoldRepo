@@ -63,12 +63,23 @@ public class TextBoxTest extends BaseLibrary {
 	// -------------------------------------------- //
 	
 	@Test(priority=5,
-			groups = { "regression"})
+			groups = {"regression"})
 	public void fillTextBoxForm() {
 		textboxpage.clickOnClose();
 		textboxpage.clickOnPractice();
 		textboxpage.clickOnElement();
 		textboxpage.clickOnTextBox();
 		textboxpage.fillAllTheDetails();
+	}
+	
+	@Test(priority=6,
+			groups = {"regression"})
+	public void clickOnSubmit() {
+		textboxpage.clickOnClose();
+		textboxpage.clickOnPractice();
+		textboxpage.clickOnElement();
+		textboxpage.clickOnTextBox();
+		textboxpage.fillAllTheDetails();
+		textboxpage.clickOnSubmit();
 	}
 }

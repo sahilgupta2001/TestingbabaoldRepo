@@ -1,134 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-19T00:01:56 IST" name="Default suite" finished-at="2026-03-19T00:03:06 IST" duration-ms="70032">
+  <suite started-at="2026-03-19T00:49:31 IST" name="Default suite" finished-at="2026-03-19T00:50:54 IST" duration-ms="82506">
     <groups>
       <group name="regression">
-        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@932bc4a]" name="fillTextBoxForm" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28]" name="fillTextBoxForm" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnSubmit" class="tests_for_element.TextBoxTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@932bc4a]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
+        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-19T00:01:56 IST" name="Default test" finished-at="2026-03-19T00:03:06 IST" duration-ms="70032">
+    <test started-at="2026-03-19T00:49:31 IST" name="Default test" finished-at="2026-03-19T00:50:54 IST" duration-ms="82506">
       <class name="tests_for_element.TextBoxTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:01:56 IST" name="setup" finished-at="2026-03-19T00:02:05 IST" duration-ms="9717" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:31 IST" name="setup" finished-at="2026-03-19T00:49:45 IST" duration-ms="14087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:05 IST" name="initPages" finished-at="2026-03-19T00:02:06 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:45 IST" name="initPages" finished-at="2026-03-19T00:49:45 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:06 IST" name="clickOnClose" finished-at="2026-03-19T00:02:07 IST" duration-ms="1466" status="PASS">
+        <test-method signature="clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:45 IST" name="clickOnClose" finished-at="2026-03-19T00:49:47 IST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnClose -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:07 IST" name="tearDown" finished-at="2026-03-19T00:02:08 IST" duration-ms="982" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:47 IST" name="tearDown" finished-at="2026-03-19T00:49:48 IST" duration-ms="953" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnClose status=SUCCESS method=TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@932bc4a] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnClose status=SUCCESS method=TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:08 IST" name="setup" finished-at="2026-03-19T00:02:16 IST" duration-ms="7510" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:48 IST" name="setup" finished-at="2026-03-19T00:49:56 IST" duration-ms="8662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:16 IST" name="initPages" finished-at="2026-03-19T00:02:16 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:56 IST" name="initPages" finished-at="2026-03-19T00:49:56 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:16 IST" name="clickOnPractice" finished-at="2026-03-19T00:02:20 IST" duration-ms="4195" status="PASS">
+        <test-method signature="clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:56 IST" name="clickOnPractice" finished-at="2026-03-19T00:49:59 IST" duration-ms="3283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPractice -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:20 IST" name="tearDown" finished-at="2026-03-19T00:02:20 IST" duration-ms="722" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:59 IST" name="tearDown" finished-at="2026-03-19T00:50:00 IST" duration-ms="674" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnPractice status=SUCCESS method=TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@932bc4a] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnPractice status=SUCCESS method=TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:20 IST" name="setup" finished-at="2026-03-19T00:02:28 IST" duration-ms="7709" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:00 IST" name="setup" finished-at="2026-03-19T00:50:05 IST" duration-ms="4562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:28 IST" name="initPages" finished-at="2026-03-19T00:02:28 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:05 IST" name="initPages" finished-at="2026-03-19T00:50:05 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:28 IST" name="clickOnElement" finished-at="2026-03-19T00:02:31 IST" duration-ms="3164" status="PASS">
+        <test-method signature="clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:05 IST" name="clickOnElement" finished-at="2026-03-19T00:50:11 IST" duration-ms="6379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnElement -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:31 IST" name="tearDown" finished-at="2026-03-19T00:02:32 IST" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:11 IST" name="tearDown" finished-at="2026-03-19T00:50:12 IST" duration-ms="837" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnElement status=SUCCESS method=TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@932bc4a] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnElement status=SUCCESS method=TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:32 IST" name="setup" finished-at="2026-03-19T00:02:37 IST" duration-ms="5027" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:12 IST" name="setup" finished-at="2026-03-19T00:50:19 IST" duration-ms="7168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:37 IST" name="initPages" finished-at="2026-03-19T00:02:37 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:19 IST" name="initPages" finished-at="2026-03-19T00:50:19 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:37 IST" name="clickOnTextBox" finished-at="2026-03-19T00:02:43 IST" duration-ms="6138" status="PASS">
+        <test-method signature="clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:19 IST" name="clickOnTextBox" finished-at="2026-03-19T00:50:23 IST" duration-ms="4033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnTextBox -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:43 IST" name="tearDown" finished-at="2026-03-19T00:02:44 IST" duration-ms="681" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:23 IST" name="tearDown" finished-at="2026-03-19T00:50:24 IST" duration-ms="716" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnTextBox status=SUCCESS method=TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@932bc4a] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnTextBox status=SUCCESS method=TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:44 IST" name="setup" finished-at="2026-03-19T00:02:50 IST" duration-ms="5470" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:24 IST" name="setup" finished-at="2026-03-19T00:50:31 IST" duration-ms="7062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:50 IST" name="initPages" finished-at="2026-03-19T00:02:50 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:31 IST" name="initPages" finished-at="2026-03-19T00:50:31 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:02:50 IST" name="fillTextBoxForm" finished-at="2026-03-19T00:03:05 IST" duration-ms="15205" status="PASS">
+        <test-method signature="fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:31 IST" name="fillTextBoxForm" finished-at="2026-03-19T00:50:39 IST" duration-ms="8210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillTextBoxForm -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@932bc4a]" started-at="2026-03-19T00:03:05 IST" name="tearDown" finished-at="2026-03-19T00:03:06 IST" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:39 IST" name="tearDown" finished-at="2026-03-19T00:50:40 IST" duration-ms="792" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fillTextBoxForm status=SUCCESS method=TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@932bc4a] output={null}]]]>
+                <![CDATA[[TestResult name=fillTextBoxForm status=SUCCESS method=TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:40 IST" name="setup" finished-at="2026-03-19T00:50:48 IST" duration-ms="7539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:48 IST" name="initPages" finished-at="2026-03-19T00:50:48 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:48 IST" name="clickOnSubmit" finished-at="2026-03-19T00:50:53 IST" duration-ms="5326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:53 IST" name="tearDown" finished-at="2026-03-19T00:50:54 IST" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnSubmit status=SUCCESS method=TextBoxTest.clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
               </value>
             </param>
           </params>

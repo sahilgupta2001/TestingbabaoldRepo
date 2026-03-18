@@ -51,6 +51,9 @@ public class TextBoxPage extends BaseLibrary {
 	@FindBy(xpath="//textarea[@id='paddresh1']")
 	private WebElement permanentaddressfield;
 	
+	@FindBy(xpath="//input[@type='button']")
+	private WebElement submitbutton;
+	
 	// -------------------------------------------------- //
 	//						Actions		 				  //
 	// -------------------------------------------------- //
@@ -127,7 +130,13 @@ public class TextBoxPage extends BaseLibrary {
 		
 		log.info("Text Box filled Successfully");
 	}
-
+	
+	public void clickOnSubmit() {
+		log.info("Clicking on 'Submit' button.");
+		waitForClickability(submitbutton).click();
+		log.info("Submit Button Clicked");
+	}
+	
 	private void validateExcelData(String fullName, String email, 
 			String currentAddress, String permanentAddress) {
 		
