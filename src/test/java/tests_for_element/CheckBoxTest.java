@@ -80,9 +80,68 @@ public class CheckBoxTest extends BaseLibrary {
 				"Mobile checkbox should be selected after clicking it.");
 		
 		Assert.assertTrue(
-				checkboxpage.isLaptopChecked(), 
-				"");
+				checkboxpage.isMobileMessageDisplayed(), 
+				"Mobile selection message should be visible after checking Mobile.");
 		}
+	
+	@Test(priority = 6,
+			groups = {"regression"})
+	public void verifyLaptopCheckBoxSelection() {
+		checkboxpage
+				.clickOnClose()
+				.clickOnPractice()
+				.clickOnElements()
+				.clickOnCheckBox()
+				.checkLaptop();
+		
+		Assert.assertTrue(
+				checkboxpage.isLaptopChecked(),
+				"Laptop checkbox should be selected after clicking it.");
+		
+		Assert.assertTrue(
+				checkboxpage.isLaptopMessageDisplayed(),
+				"Laptop selection message should be visible after checking Laptop.");
 	}
-
-
+	
+	@Test(priority = 7,
+			groups = {"regression"})
+	public void verifyDesktopCheckBoxSelection() {
+		checkboxpage
+				.clickOnClose()
+				.clickOnPractice()
+				.clickOnElements()
+				.clickOnCheckBox()
+				.checkDesktop();
+		
+		Assert.assertTrue(
+				checkboxpage.isDesktopChecked(),
+				"Desktop checkbox should be selected after clicking it.");
+		
+		Assert.assertTrue(
+				checkboxpage.isDesktopMessageDisplayed(),
+				"Desktop selection message should be visible after checking Desktop.");
+	}
+	
+	@Test(priority = 8,
+			groups = {"regression"})
+	public void verifyAllCheckboxesCanBeSelectedTogether() {
+		checkboxpage
+				.clickOnClose()
+				.clickOnPractice()
+				.clickOnElements()
+				.clickOnCheckBox()
+				.checkMobile()
+				.checkLaptop()
+				.checkDesktop();
+		
+		Assert.assertTrue(checkboxpage.isMobileChecked(), "Mobile checkbox should be selected.");
+		Assert.assertTrue(checkboxpage.isLaptopChecked(), "Laptop checkbox should be selected.");
+		Assert.assertTrue(checkboxpage.isDesktopChecked(), "Desktop checkbox should be selected.");
+		
+		Assert.assertTrue(checkboxpage.isMobileMessageDisplayed(), "Mobile message should be visible.");
+		Assert.assertTrue(checkboxpage.isLaptopMessageDisplayed(), "Laptop message should be visible.");
+		Assert.assertTrue(checkboxpage.isDesktopMessageDisplayed(), "Desktop message should be visible.");
+	}
+	
+	
+}
