@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_for_element.TextBoxTest">
+      <class name="tests_for_element.RadioButtonsTest">
         <methods>
-          <include name="initPages"/>
           <include name="setup"/>
+          <include name="verifyYesRadioButtonsSelection"/>
           <include name="tearDown"/>
-          <include name="fillTextBoxForm"/>
+          <include name="verifyNoRadioButtonsSelection"/>
+          <include name="verifyAllRadioButtonsCanBeSelectedTogether"/>
+          <include name="initPages"/>
+          <include name="verifyImpressiveRadioButtonsSelection"/>
         </methods>
-      </class> <!-- tests_for_element.TextBoxTest -->
+      </class> <!-- tests_for_element.RadioButtonsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

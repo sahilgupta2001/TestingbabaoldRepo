@@ -1,165 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-19T00:49:31 IST" name="Default suite" finished-at="2026-03-19T00:50:54 IST" duration-ms="82506">
+  <suite started-at="2026-03-21T16:25:11 IST" name="Default suite" finished-at="2026-03-21T16:27:05 IST" duration-ms="114214">
     <groups>
       <group name="regression">
-        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28]" name="fillTextBoxForm" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnSubmit" class="tests_for_element.TextBoxTest"/>
+        <method signature="RadioButtonsTest.clickOnClose()[pri:1, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnClose" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnPractice()[pri:2, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnPractice" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnElements()[pri:3, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnElements" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnRadioButtons()[pri:4, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnRadioButtons" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.verifyYesRadioButtonsSelection()[pri:5, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="verifyYesRadioButtonsSelection" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.verifyImpressiveRadioButtonsSelection()[pri:6, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="verifyImpressiveRadioButtonsSelection" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.verifyNoRadioButtonsSelection()[pri:7, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="verifyNoRadioButtonsSelection" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.verifyRadioButtonSelectionSwitches()[pri:8, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="verifyRadioButtonSelectionSwitches" class="tests_for_element.RadioButtonsTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnClose" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnPractice" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnElement" class="tests_for_element.TextBoxTest"/>
-        <method signature="TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" name="clickOnTextBox" class="tests_for_element.TextBoxTest"/>
+        <method signature="RadioButtonsTest.clickOnClose()[pri:1, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnClose" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnPractice()[pri:2, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnPractice" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnElements()[pri:3, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnElements" class="tests_for_element.RadioButtonsTest"/>
+        <method signature="RadioButtonsTest.clickOnRadioButtons()[pri:4, instance:tests_for_element.RadioButtonsTest@29d89d5d]" name="clickOnRadioButtons" class="tests_for_element.RadioButtonsTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-19T00:49:31 IST" name="Default test" finished-at="2026-03-19T00:50:54 IST" duration-ms="82506">
-      <class name="tests_for_element.TextBoxTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:31 IST" name="setup" finished-at="2026-03-19T00:49:45 IST" duration-ms="14087" status="PASS">
+    <test started-at="2026-03-21T16:25:11 IST" name="Default test" finished-at="2026-03-21T16:27:05 IST" duration-ms="114214">
+      <class name="tests_for_element.RadioButtonsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:11 IST" name="setup" finished-at="2026-03-21T16:25:22 IST" duration-ms="11256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:45 IST" name="initPages" finished-at="2026-03-19T00:49:45 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:22 IST" name="initPages" finished-at="2026-03-21T16:25:22 IST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:45 IST" name="clickOnClose" finished-at="2026-03-19T00:49:47 IST" duration-ms="1184" status="PASS">
+        <test-method signature="clickOnClose()[pri:1, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:22 IST" name="clickOnClose" finished-at="2026-03-21T16:25:23 IST" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnClose -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:47 IST" name="tearDown" finished-at="2026-03-19T00:49:48 IST" duration-ms="953" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:23 IST" name="tearDown" finished-at="2026-03-21T16:25:24 IST" duration-ms="935" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnClose status=SUCCESS method=TextBoxTest.clickOnClose()[pri:1, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnClose status=SUCCESS method=RadioButtonsTest.clickOnClose()[pri:1, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:48 IST" name="setup" finished-at="2026-03-19T00:49:56 IST" duration-ms="8662" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:24 IST" name="setup" finished-at="2026-03-21T16:25:33 IST" duration-ms="9011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:56 IST" name="initPages" finished-at="2026-03-19T00:49:56 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:33 IST" name="initPages" finished-at="2026-03-21T16:25:33 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:56 IST" name="clickOnPractice" finished-at="2026-03-19T00:49:59 IST" duration-ms="3283" status="PASS">
+        <test-method signature="clickOnPractice()[pri:2, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:33 IST" name="clickOnPractice" finished-at="2026-03-21T16:25:36 IST" duration-ms="3178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPractice -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:49:59 IST" name="tearDown" finished-at="2026-03-19T00:50:00 IST" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:36 IST" name="tearDown" finished-at="2026-03-21T16:25:37 IST" duration-ms="753" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnPractice status=SUCCESS method=TextBoxTest.clickOnPractice()[pri:2, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnPractice status=SUCCESS method=RadioButtonsTest.clickOnPractice()[pri:2, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:00 IST" name="setup" finished-at="2026-03-19T00:50:05 IST" duration-ms="4562" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:37 IST" name="setup" finished-at="2026-03-21T16:25:45 IST" duration-ms="7851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:05 IST" name="initPages" finished-at="2026-03-19T00:50:05 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:45 IST" name="initPages" finished-at="2026-03-21T16:25:45 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:05 IST" name="clickOnElement" finished-at="2026-03-19T00:50:11 IST" duration-ms="6379" status="PASS">
+        <test-method signature="clickOnElements()[pri:3, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:45 IST" name="clickOnElements" finished-at="2026-03-21T16:25:51 IST" duration-ms="6447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnElement -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:11 IST" name="tearDown" finished-at="2026-03-19T00:50:12 IST" duration-ms="837" status="PASS">
+        </test-method> <!-- clickOnElements -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:51 IST" name="tearDown" finished-at="2026-03-21T16:25:52 IST" duration-ms="956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnElement status=SUCCESS method=TextBoxTest.clickOnElement()[pri:3, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnElements status=SUCCESS method=RadioButtonsTest.clickOnElements()[pri:3, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:12 IST" name="setup" finished-at="2026-03-19T00:50:19 IST" duration-ms="7168" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:52 IST" name="setup" finished-at="2026-03-21T16:25:58 IST" duration-ms="5360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:19 IST" name="initPages" finished-at="2026-03-19T00:50:19 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:58 IST" name="initPages" finished-at="2026-03-21T16:25:58 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:19 IST" name="clickOnTextBox" finished-at="2026-03-19T00:50:23 IST" duration-ms="4033" status="PASS">
+        <test-method signature="clickOnRadioButtons()[pri:4, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:25:58 IST" name="clickOnRadioButtons" finished-at="2026-03-21T16:26:04 IST" duration-ms="6111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnTextBox -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:23 IST" name="tearDown" finished-at="2026-03-19T00:50:24 IST" duration-ms="716" status="PASS">
+        </test-method> <!-- clickOnRadioButtons -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:04 IST" name="tearDown" finished-at="2026-03-21T16:26:04 IST" duration-ms="799" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnTextBox status=SUCCESS method=TextBoxTest.clickOnTextBox()[pri:4, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnRadioButtons status=SUCCESS method=RadioButtonsTest.clickOnRadioButtons()[pri:4, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:24 IST" name="setup" finished-at="2026-03-19T00:50:31 IST" duration-ms="7062" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:04 IST" name="setup" finished-at="2026-03-21T16:26:12 IST" duration-ms="7133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:31 IST" name="initPages" finished-at="2026-03-19T00:50:31 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:12 IST" name="initPages" finished-at="2026-03-21T16:26:12 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:31 IST" name="fillTextBoxForm" finished-at="2026-03-19T00:50:39 IST" duration-ms="8210" status="PASS">
+        <test-method signature="verifyYesRadioButtonsSelection()[pri:5, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:12 IST" name="verifyYesRadioButtonsSelection" finished-at="2026-03-21T16:26:15 IST" duration-ms="3505" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillTextBoxForm -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:39 IST" name="tearDown" finished-at="2026-03-19T00:50:40 IST" duration-ms="792" status="PASS">
+        </test-method> <!-- verifyYesRadioButtonsSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:15 IST" name="tearDown" finished-at="2026-03-21T16:26:16 IST" duration-ms="978" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fillTextBoxForm status=SUCCESS method=TextBoxTest.fillTextBoxForm()[pri:5, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=verifyYesRadioButtonsSelection status=SUCCESS method=RadioButtonsTest.verifyYesRadioButtonsSelection()[pri:5, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:40 IST" name="setup" finished-at="2026-03-19T00:50:48 IST" duration-ms="7539" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:16 IST" name="setup" finished-at="2026-03-21T16:26:24 IST" duration-ms="7974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:48 IST" name="initPages" finished-at="2026-03-19T00:50:48 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:24 IST" name="initPages" finished-at="2026-03-21T16:26:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:48 IST" name="clickOnSubmit" finished-at="2026-03-19T00:50:53 IST" duration-ms="5326" status="PASS">
+        <test-method signature="verifyImpressiveRadioButtonsSelection()[pri:6, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:24 IST" name="verifyImpressiveRadioButtonsSelection" finished-at="2026-03-21T16:26:29 IST" duration-ms="4937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnSubmit -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.TextBoxTest@d29f28]" started-at="2026-03-19T00:50:53 IST" name="tearDown" finished-at="2026-03-19T00:50:54 IST" duration-ms="746" status="PASS">
+        </test-method> <!-- verifyImpressiveRadioButtonsSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:29 IST" name="tearDown" finished-at="2026-03-21T16:26:30 IST" duration-ms="797" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnSubmit status=SUCCESS method=TextBoxTest.clickOnSubmit()[pri:6, instance:tests_for_element.TextBoxTest@d29f28] output={null}]]]>
+                <![CDATA[[TestResult name=verifyImpressiveRadioButtonsSelection status=SUCCESS method=RadioButtonsTest.verifyImpressiveRadioButtonsSelection()[pri:6, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests_for_element.TextBoxTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:30 IST" name="setup" finished-at="2026-03-21T16:26:40 IST" duration-ms="10040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:40 IST" name="initPages" finished-at="2026-03-21T16:26:40 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyNoRadioButtonsSelection()[pri:7, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:40 IST" name="verifyNoRadioButtonsSelection" finished-at="2026-03-21T16:26:44 IST" duration-ms="4033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoRadioButtonsSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:44 IST" name="tearDown" finished-at="2026-03-21T16:26:45 IST" duration-ms="1459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNoRadioButtonsSelection status=SUCCESS method=RadioButtonsTest.verifyNoRadioButtonsSelection()[pri:7, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:45 IST" name="setup" finished-at="2026-03-21T16:26:57 IST" duration-ms="11521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:57 IST" name="initPages" finished-at="2026-03-21T16:26:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyRadioButtonSelectionSwitches()[pri:8, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:26:57 IST" name="verifyRadioButtonSelectionSwitches" finished-at="2026-03-21T16:27:04 IST" duration-ms="7311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonSelectionSwitches -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests_for_element.RadioButtonsTest@29d89d5d]" started-at="2026-03-21T16:27:04 IST" name="tearDown" finished-at="2026-03-21T16:27:05 IST" duration-ms="920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRadioButtonSelectionSwitches status=SUCCESS method=RadioButtonsTest.verifyRadioButtonSelectionSwitches()[pri:8, instance:tests_for_element.RadioButtonsTest@29d89d5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests_for_element.RadioButtonsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
