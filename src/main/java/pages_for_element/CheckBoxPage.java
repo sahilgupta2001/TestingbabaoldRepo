@@ -56,6 +56,7 @@ public class CheckBoxPage extends BaseLibrary {
 	@FindBy(xpath="//h6[contains(text(), 'You are Selected Desktop')]")
 	private WebElement desktopmessage;
 	
+	
 	// ---------------------------------------------------- //
 	//                       Actions                        //
 	// ---------------------------------------------------- //
